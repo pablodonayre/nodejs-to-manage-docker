@@ -1,0 +1,28 @@
+version: '3'
+services:
+
+# --------------------------------------------------------      
+
+  mongodb:
+    image: mongo:4.1.1-xenial
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "27017:27017"
+    volumes:
+      # - "./workspace/.databases/init/mongodb:/docker-entrypoint-initdb.d"
+      - "./workspace/.databases/data/mongodb:/data/db"
+
+  mongo-express:
+    image: mongo-express
+    restart: always
+    env_file:
+      - .env   
+    ports:
+      - "8087:8081"
+
+  caddy:
+    image: abiosoft/caddy
+    ports:
+      - "8095:8095"
