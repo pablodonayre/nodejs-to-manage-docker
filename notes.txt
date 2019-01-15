@@ -3,3 +3,9 @@ https://www.npmjs.com/package/docker-compose
 INSTALLATION
 npm install --save-dev docker-compose
 
+
+
+
+
+You need to be sure you have the directory:
+docker-compose-nodejs/workspace/.databases/data/mongodb
