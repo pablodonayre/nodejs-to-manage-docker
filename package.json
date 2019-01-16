@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "docker-compose": "^0.9.3"
+    "docker-compose": "^0.10.0"
+  },
+  "dependencies": {
+    "node-docker-api": "^1.1.22"
   }
 }
