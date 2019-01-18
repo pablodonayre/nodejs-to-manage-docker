@@ -1,0 +1,15 @@
+.wrapper {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.button {
+    padding: 5px 20px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+input {
+    width: 180px;
+    font-size: 20px;
+}

@@ -1,2 +1,8 @@
-workspace/.databases/data/mongodb/
-node_modules/
+# Databases Data
+alone_files/workspace/.databases/data/mongodb/
+application/workspace/.databases/data/mongodb/
+
+
+# Node
+alone_files/node_modules/
+application/node_modules/
